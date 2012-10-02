@@ -28,5 +28,6 @@ Gem::Specification.new do |s|
   s.test_files            = Dir["{test,spec,features}/**/*"]
   s.require_paths         = ["lib"]
   #= Manifest =#
-end
 
+  s.add_dependency              'activerecord',         '~> 3.1'
+end
